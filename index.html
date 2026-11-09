@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ristorante Masini — Pranzo e cena in Viale Masini, vicino alla stazione di Bologna</title>
+<meta name="description" content="Ristorante Masini in Viale Angelo Masini 4/3 a Bologna: lasagna della tradizione, tagliatelle, pesce e carne, con il buffet di dolci e frutta incluso nel menù. Pranzo tutti i giorni, cena dal lunedì al sabato. Prenota al 347 595 0409.">
+<meta name="theme-color" content="#F6F1E9">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='19' fill='%231C1816'/%3E%3Cpath d='M12 28V13l8 9 8-9v15' fill='none' stroke='%23F0C36A' stroke-width='2.4' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Ristorante Masini","description":"Ristorante di cucina italiana e bolognese in Viale Angelo Masini, vicino alla stazione centrale di Bologna, con buffet di dolci e frutta incluso nel menù.","servesCuisine":["Italiana","Bolognese","Pesce"],"telephone":"+39 347 595 0409","email":"ristorantemasini@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Viale Angelo Masini 4/3","postalCode":"40126","addressLocality":"Bologna","addressRegion":"BO","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":44.5044941,"longitude":11.3474089},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"12:00","closes":"15:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Saturday"],"opens":"19:30","closes":"23:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"19:00","closes":"23:00"}],"sameAs":["https://www.instagram.com/ristorante.masini/"]}
+</script>
+<script>document.documentElement.className="js"</script>
+<style>
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader.woff2) format("woff2");font-weight:450;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-italic.woff2) format("woff2");font-weight:450;font-style:italic;font-display:swap}
+@font-face{font-family:"Inter";src:url(fonts/Inter-var.woff2) format("woff2");font-weight:400 600;font-style:normal;font-display:swap}
+
+:root{
+  --crema:#F6F1E9;--crema-2:#ECE3D5;--ink:#1F1B19;--mut:#655C55;--linea:rgba(31,27,25,.14);
+  --rosso:#B0281F;--rosso-d:#8A1D16;--legno:#A86A3D;--oro:#F0C36A;--notte:#1C1816;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;--sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(20px,5vw,56px);--sez:clamp(76px,10vw,140px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+body{font-family:var(--sans);font-size:16.5px;line-height:1.62;color:var(--ink);background:var(--crema);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+svg{display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:450;line-height:1.06;letter-spacing:-.018em}
+h2{font-size:clamp(2.2rem,1.4rem + 3.2vw,3.9rem);max-width:16ch}
+h2 em,h1 em{font-style:italic;color:var(--rosso)}
+.scuro h2 em{color:var(--oro)}
+:focus-visible{outline:3px solid var(--rosso);outline-offset:3px}
+.scuro :focus-visible{outline-color:var(--oro)}
+.wrap{max-width:1240px;margin:0 auto;padding:0 var(--pad)}
+.salta{position:absolute;left:12px;top:-60px;background:var(--rosso);color:#fff;padding:12px 18px;z-index:50}
+.salta:focus{top:12px}
+.sez{padding:var(--sez) 0}
+.occhiello{font:600 11.5px/1.3 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--rosso);display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.occhiello::before{content:"";width:30px;height:1px;background:currentColor;flex:none;opacity:.7}
+.scuro .occhiello{color:var(--oro)}
+.intro{font-size:clamp(1.04rem,.98rem + .3vw,1.2rem);color:var(--mut);max-width:34em;margin-top:18px}
+.scuro .intro{color:rgba(246,241,233,.78)}
+
+/* pulsanti */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:52px;padding:0 26px;border:1px solid var(--rosso);background:var(--rosso);color:#fff;font:600 14px/1.2 var(--sans);letter-spacing:.02em;text-decoration:none;border-radius:999px;cursor:pointer;transition:background .25s,color .25s,border-color .25s,transform .25s}
+.btn:hover{background:var(--rosso-d);border-color:var(--rosso-d)}
+.btn:active{transform:translateY(1px)}
+.btn.vuoto{background:transparent;color:var(--ink);border-color:rgba(31,27,25,.35)}
+.btn.vuoto:hover{border-color:var(--ink);background:rgba(31,27,25,.04)}
+.btn.chiaro{background:var(--crema);border-color:var(--crema);color:var(--ink)}
+.btn.chiaro:hover{background:#fff;border-color:#fff}
+.btn.vetro{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.55);color:#fff;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.btn.vetro:hover{background:rgba(255,255,255,.2);border-color:#fff}
+.btn svg{width:18px;height:18px;flex:none}
+
+/* barra bozza */
+.bnw-fascia{background:#15161A;color:#fff;font:400 13.5px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;text-align:center;padding:9px 16px}
+.bnw-fascia a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:2px}
+
+/* barra */
+.barra{position:sticky;top:0;z-index:30;background:rgba(246,241,233,.93);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--linea)}
+.barra .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px}
+.logo{text-decoration:none;display:flex;align-items:center;gap:12px;min-height:44px}
+.logo svg{width:40px;height:40px;color:var(--rosso);flex:none}
+.logo b{font-family:var(--serif);font-weight:450;font-size:1.6rem;letter-spacing:-.01em;line-height:1;display:block}
+.logo small{font:600 9.5px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--mut);display:block;margin-top:5px}
+.menu{display:none;gap:28px;list-style:none}
+.menu a{font-size:.93rem;text-decoration:none;display:inline-flex;align-items:center;min-height:44px;position:relative}
+.menu a::after{content:"";position:absolute;left:0;right:0;bottom:9px;height:1px;background:var(--rosso);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.menu a:hover::after{transform:scaleX(1)}
+.barra .btn{min-height:44px;padding:0 20px;font-size:13.5px}
+
+/* hero */
+.hero{position:relative;min-height:calc(100svh - 110px);display:flex;align-items:flex-end;color:#fff;background:var(--notte);overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:55% 45%;transform:scale(1.04);animation:respiro 18s ease-out forwards}
+@keyframes respiro{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,16,14,.35) 0,rgba(20,16,14,.3) 30%,rgba(20,16,14,.9) 100%),linear-gradient(90deg,rgba(20,16,14,.62) 0,rgba(20,16,14,0) 72%)}
+.hero .wrap{position:relative;z-index:1;width:100%;padding-top:120px;padding-bottom:clamp(36px,6vw,72px)}
+.hero .occhiello{color:var(--oro)}
+.hero h1{font-size:clamp(2.9rem,1.2rem + 6.4vw,6.4rem);line-height:.98;letter-spacing:-.028em;max-width:11ch}
+.hero h1 em{color:var(--oro)}
+.hero .sotto{font-size:clamp(1.05rem,.98rem + .35vw,1.25rem);color:rgba(255,255,255,.9);max-width:32em;margin-top:20px}
+.azioni{display:flex;flex-wrap:wrap;gap:10px 12px;margin-top:28px}
+.stato{display:inline-flex;align-items:center;gap:10px;margin-top:26px;font-size:.93rem;color:rgba(255,255,255,.88);background:rgba(20,16,14,.45);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.16);padding:9px 16px 9px 13px;border-radius:999px}
+.punto{width:9px;height:9px;border-radius:50%;background:#9aa0a6;flex:none}
+.stato.aperto .punto{background:#6fd08c;box-shadow:0 0 0 0 rgba(111,208,140,.6);animation:pulsa 2.2s infinite}
+.stato.chiuso .punto{background:#e0866f}
+@keyframes pulsa{70%{box-shadow:0 0 0 9px rgba(111,208,140,0)}100%{box-shadow:0 0 0 0 rgba(111,208,140,0)}}
+.stato b{color:#fff;font-weight:600}
+
+/* fascia valori */
+.valori{border-bottom:1px solid var(--linea)}
+.valori ul{list-style:none;display:grid}
+.valori li{display:flex;gap:16px;align-items:flex-start;padding:24px 0}
+.valori li+li{border-top:1px solid var(--linea)}
+.valori svg{width:34px;height:34px;color:var(--legno);flex:none;margin-top:2px}
+.valori b{font-family:var(--serif);font-weight:450;font-size:1.28rem;display:block;line-height:1.2}
+.valori span{color:var(--mut);font-size:.95rem}
+
+/* menù */
+.menu-testa{display:grid;gap:24px;align-items:end}
+.lavagna{background:#22201E;color:var(--crema);border-radius:6px;padding:24px 26px;position:relative;overflow:hidden;box-shadow:inset 0 0 60px rgba(0,0,0,.35)}
+.lavagna::before{content:"";position:absolute;inset:8px;border:1px solid rgba(240,195,106,.3);border-radius:3px;pointer-events:none}
+.lavagna small{font:600 11px/1.2 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--oro)}
+.lavagna p{font-family:var(--serif);font-style:italic;font-size:1.6rem;line-height:1.2;margin-top:8px}
+.lavagna span{display:block;font-size:.92rem;color:rgba(246,241,233,.75);margin-top:6px}
+.lavagna ol{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin-top:16px;position:relative}
+.lavagna ol button{font:500 12.5px/1 var(--sans);color:var(--crema);background:transparent;border:1px solid rgba(246,241,233,.3);border-radius:999px;padding:0 13px;min-height:34px;cursor:pointer}
+.lavagna ol button[aria-pressed="true"]{background:var(--oro);color:var(--notte);border-color:var(--oro)}
+.lavagna .incl{margin-top:16px;padding-top:14px;border-top:1px dashed rgba(246,241,233,.25);font-size:.88rem;color:rgba(246,241,233,.8)}
+.esempio{display:inline-flex;align-items:center;gap:8px;margin-top:22px;font:600 12px/1.35 var(--sans);color:var(--rosso-d);background:rgba(176,40,31,.08);border:1px dashed rgba(176,40,31,.45);padding:9px 14px;border-radius:6px}
+.schede{display:flex;gap:6px;overflow-x:auto;margin:clamp(30px,4vw,46px) calc(var(--pad)*-1) 0;padding:0 var(--pad) 2px;scrollbar-width:none;border-bottom:1px solid var(--linea)}
+.schede::-webkit-scrollbar{display:none}
+.schede button{flex:none;font:500 15px/1 var(--sans);color:var(--mut);background:none;border:0;border-bottom:2px solid transparent;padding:0 14px;min-height:52px;cursor:pointer;margin-bottom:-1px;transition:color .2s,border-color .2s}
+.schede button:hover{color:var(--ink)}
+.schede button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--rosso);font-weight:600}
+.pannello{padding-top:clamp(28px,4vw,44px)}
+.pannello[hidden]{display:none}
+.piatti{list-style:none;display:grid;gap:0 clamp(32px,5vw,72px)}
+.piatto{padding:20px 0;border-bottom:1px dashed rgba(31,27,25,.22)}
+.piatto h3{font-size:1.32rem;line-height:1.2;letter-spacing:-.01em}
+.piatto p{color:var(--mut);font-size:.95rem;margin-top:4px;max-width:36em}
+.tag{display:inline-block;font:600 10.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:4px 7px;border-radius:3px;margin-left:8px;vertical-align:3px;white-space:nowrap}
+.tag.c{background:rgba(176,40,31,.1);color:var(--rosso)}
+.tag.s{background:rgba(168,106,61,.16);color:#6e4322}
+.note-menu{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:30px;font-size:.88rem;color:var(--mut)}
+.note-menu b{color:var(--ink);font-weight:600}
+
+/* buffet */
+.buffet{background:var(--crema-2)}
+.buffet .wrap{display:grid;gap:clamp(36px,6vw,80px);align-items:center}
+.foto-doppia{position:relative;padding-bottom:18%}
+.foto-doppia figure:first-child img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px}
+.foto-doppia figure:last-child{position:absolute;right:-3%;bottom:0;width:48%;border:8px solid var(--crema-2);border-radius:6px;overflow:hidden;box-shadow:0 24px 50px -24px rgba(31,27,25,.5)}
+.foto-doppia figure:last-child img{width:100%;aspect-ratio:1;object-fit:cover}
+.lista-buffet{list-style:none;margin-top:28px;display:grid;gap:12px}
+.lista-buffet li{display:flex;gap:14px;align-items:flex-start}
+.lista-buffet svg{width:22px;height:22px;color:var(--rosso);flex:none;margin-top:2px}
+.numeri{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px;padding-top:26px;border-top:1px solid var(--linea)}
+.numeri b{font-family:var(--serif);font-weight:450;font-size:clamp(2rem,1.5rem + 1.6vw,2.8rem);line-height:1;display:block;color:var(--rosso)}
+.numeri span{font-size:.86rem;color:var(--mut);display:block;margin-top:6px;line-height:1.35}
+
+/* sala */
+.sala .wrap{display:grid;gap:clamp(36px,6vw,80px);align-items:center}
+.sala-foto img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4px}
+.sala-foto figcaption{font-size:.84rem;color:var(--mut);margin-top:10px}
+.occasioni{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:28px}
+.occasioni div{background:#fffaf2;border:1px solid var(--linea);border-radius:6px;padding:16px}
+.occasioni b{font-family:var(--serif);font-weight:450;font-size:1.18rem;display:block;line-height:1.2}
+.occasioni span{font-size:.88rem;color:var(--mut);display:block;margin-top:4px}
+
+/* galleria */
+.galleria{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:clamp(34px,5vw,54px)}
+.galleria figure{position:relative;overflow:hidden;border-radius:4px;background:var(--crema-2)}
+.galleria img{width:100%;height:100%;object-fit:cover;aspect-ratio:1;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.galleria figure:hover img{transform:scale(1.04)}
+.galleria figure:first-child{grid-column:span 2}
+.galleria figure:first-child img{aspect-ratio:4/3;object-position:50% 60%}
+.galleria figcaption{position:absolute;left:10px;bottom:10px;background:rgba(246,241,233,.92);font-size:.78rem;font-weight:500;padding:5px 10px;border-radius:999px}
+
+/* recensioni */
+.voto{display:flex;align-items:center;gap:16px;margin-top:26px;flex-wrap:wrap}
+.voto .num{font-family:var(--serif);font-size:3.2rem;line-height:1}
+.stelle{display:flex;gap:2px;color:var(--legno)}
+.stelle svg{width:18px;height:18px}
+.voto small{display:block;color:var(--mut);font-size:.88rem}
+.recensioni{display:grid;gap:14px;margin-top:clamp(34px,5vw,50px)}
+.rec{background:#fffaf2;border:1px solid var(--linea);border-radius:6px;padding:26px 24px 22px;display:flex;flex-direction:column}
+.rec blockquote{font-family:var(--serif);font-size:1.18rem;line-height:1.42;flex:1}
+.rec footer{display:flex;align-items:center;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid var(--linea);font-size:.88rem;color:var(--mut)}
+.rec footer b{color:var(--ink);font-weight:600;display:block}
+.iniz{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font:600 14px/1 var(--sans);color:#fff;flex:none}
+.fonte-rec{font-size:.86rem;color:var(--mut);margin-top:18px}
+
+/* prenota */
+.prenota{background:var(--notte);color:var(--crema);position:relative;overflow:hidden}
+.prenota .wrap{display:grid;gap:clamp(36px,6vw,80px);position:relative}
+.prenota-foto{position:absolute;inset:0;opacity:.13}
+.prenota-foto img{width:100%;height:100%;object-fit:cover;filter:grayscale(.4) blur(2px)}
+.prenota .contatti{list-style:none;margin-top:30px;display:grid;gap:4px}
+.prenota .contatti a{display:flex;align-items:center;gap:14px;min-height:52px;text-decoration:none;font-size:1.05rem;word-break:break-word}
+.prenota .contatti svg{width:22px;height:22px;color:var(--oro);flex:none}
+.prenota .contatti small{display:block;font-size:.82rem;color:rgba(246,241,233,.6)}
+.prenota .grande{font-family:var(--serif);font-size:clamp(1.9rem,1.5rem + 1.6vw,2.6rem);line-height:1}
+form.modulo{background:var(--crema);color:var(--ink);border-radius:8px;padding:clamp(22px,4vw,36px);box-shadow:0 40px 80px -40px rgba(0,0,0,.6)}
+.modulo h3{font-size:1.7rem}
+.modulo .sottot{font-size:.92rem;color:var(--mut);margin-top:6px}
+.modulo .campi{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.campo{display:flex;flex-direction:column;gap:6px;min-width:0}
+.campo.largo{grid-column:1/-1}
+.campo label,.campo legend{font:600 12px/1.2 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.campo input,.campo select,.campo textarea{font:400 16px/1.3 var(--sans);color:var(--ink);background:#fff;border:1px solid rgba(31,27,25,.22);border-radius:6px;min-height:50px;padding:12px 14px;width:100%;-webkit-appearance:none;appearance:none}
+.campo select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%231F1B19' stroke-width='1.6'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
+.campo textarea{min-height:84px;resize:vertical}
+.campo input:focus,.campo select:focus,.campo textarea:focus{outline:2px solid var(--rosso);outline-offset:0;border-color:var(--rosso)}
+.persone{border:0;min-width:0}
+.persone legend{margin-bottom:8px;padding:0}
+.persone .scelte{display:flex;gap:6px;flex-wrap:wrap}
+.persone label{position:relative}
+.persone input{position:absolute;opacity:0;width:1px;height:1px}
+.persone span{display:grid;place-items:center;min-width:46px;height:46px;padding:0 8px;border:1px solid rgba(31,27,25,.22);border-radius:6px;background:#fff;font:500 15px/1 var(--sans);cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.persone input:checked+span{background:var(--ink);color:#fff;border-color:var(--ink)}
+.persone input:focus-visible+span{outline:3px solid var(--rosso);outline-offset:2px}
+.modulo .btn{width:100%;margin-top:20px;background:#1F8A4C;border-color:#1F8A4C}
+.modulo .btn:hover{background:#176B3B;border-color:#176B3B}
+.modulo .info{font-size:.84rem;color:var(--mut);margin-top:12px;text-align:center}
+
+/* gruppi */
+.gruppi{border-bottom:1px solid var(--linea)}
+.gruppi .wrap{display:grid;gap:22px;align-items:center;padding-top:clamp(44px,6vw,70px);padding-bottom:clamp(44px,6vw,70px)}
+.gruppi h2{font-size:clamp(1.8rem,1.3rem + 2vw,2.7rem);max-width:22ch}
+.gruppi p{color:var(--mut);margin-top:10px;max-width:38em}
+
+/* orari e dove */
+.dove .wrap{display:grid;gap:clamp(36px,6vw,80px)}
+.orari{list-style:none;margin-top:28px;border-top:1px solid var(--linea)}
+.orari li{display:flex;justify-content:space-between;gap:16px;padding:14px 10px;border-bottom:1px solid var(--linea);font-size:.98rem}
+.orari li span:last-child{color:var(--mut);text-align:right}
+.orari li.oggi-r{background:rgba(168,106,61,.16);border-radius:4px;font-weight:600}
+.orari li.oggi-r span:last-child{color:var(--ink)}
+.orari li.oggi-r span:first-child::after{content:"oggi";font:600 10px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;background:var(--rosso);color:#fff;padding:3px 6px;border-radius:3px;margin-left:10px;vertical-align:2px}
+.nota{font-size:.86rem;color:var(--mut);margin-top:14px}
+.mappa{position:relative;border-radius:6px;overflow:hidden;min-height:420px;background:var(--crema-2);display:flex;align-items:flex-end}
+.mappa>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mappa::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,16,14,0) 20%,rgba(20,16,14,.55) 55%,rgba(20,16,14,.92));z-index:1}
+.mappa .box{position:relative;z-index:2;color:#fff;padding:26px;width:100%}
+.mappa address{font-style:normal;font-family:var(--serif);font-size:1.6rem;line-height:1.2}
+.mappa p{font-size:.92rem;color:rgba(255,255,255,.84);margin:6px 0 18px}
+.mappa iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:3}
+.come{list-style:none;margin-top:26px;display:grid;gap:12px}
+.come li{display:flex;gap:14px;font-size:.95rem;color:var(--mut)}
+.come svg{width:22px;height:22px;color:var(--legno);flex:none;margin-top:1px}
+.come b{color:var(--ink);font-weight:600}
+
+/* piede */
+.piede{background:var(--notte);color:rgba(246,241,233,.75);padding:clamp(54px,7vw,84px) 0 calc(36px + env(safe-area-inset-bottom));font-size:.92rem}
+.piede .wrap{display:grid;gap:34px}
+.piede .logo{color:var(--crema)}
+.piede .logo svg{color:var(--oro)}
+.piede .logo small{color:rgba(246,241,233,.55)}
+.piede h3{font:600 11px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--oro);margin-bottom:12px}
+.piede ul{list-style:none;display:grid;gap:2px}
+.piede ul a{text-decoration:none;display:inline-flex;min-height:36px;align-items:center;word-break:break-all}
+.piede ul a:hover{color:#fff}
+.social{display:flex;gap:10px;margin-top:18px}
+.social a{width:44px;height:44px;border:1px solid rgba(246,241,233,.25);border-radius:50%;display:grid;place-items:center}
+.social a:hover{border-color:var(--oro);color:#fff}
+.social svg{width:18px;height:18px}
+.fine{border-top:1px solid rgba(246,241,233,.14);padding-top:22px;font-size:.8rem;color:rgba(246,241,233,.5);display:flex;flex-wrap:wrap;gap:6px 22px}
+
+/* barra mobile */
+.rapida{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1.3fr 1fr;background:rgba(28,24,22,.96);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:8px 8px calc(8px + env(safe-area-inset-bottom));gap:6px;transform:translateY(110%);transition:transform .35s ease}
+.rapida.su{transform:none}
+.rapida a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:52px;color:var(--crema);text-decoration:none;font:500 12px/1 var(--sans);border-radius:8px}
+.rapida a svg{width:20px;height:20px}
+.rapida a.pri{background:#1F8A4C;font-weight:600;font-size:13px}
+
+/* comparsa */
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+
+@media (min-width:640px){
+  .valori ul{grid-template-columns:repeat(3,1fr);gap:28px}
+  .valori li+li{border-top:0}
+  .recensioni{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:900px){
+  .menu{display:flex}
+  .hero h1{max-width:14ch;font-size:clamp(2.9rem,1rem + 5.4vw,5.8rem)}
+  .menu-testa{grid-template-columns:1.4fr 1fr}
+  .piatti{grid-template-columns:1fr 1fr}
+  .buffet .wrap{grid-template-columns:1fr 1.05fr}
+  .sala .wrap{grid-template-columns:1.1fr .9fr}
+  .sala-foto{order:2}
+  .galleria{grid-template-columns:repeat(4,1fr);grid-auto-rows:1fr}
+  .galleria figure:first-child{grid-column:span 2;grid-row:span 2}
+  .galleria figure:first-child img{aspect-ratio:auto}
+  .recensioni{grid-template-columns:repeat(3,1fr)}
+  .prenota .wrap{grid-template-columns:1fr 1.05fr;align-items:center}
+  .dove .wrap{grid-template-columns:1fr 1.15fr;align-items:start}
+  .mappa{min-height:100%}
+  .gruppi .wrap{grid-template-columns:1fr auto}
+  .piede .wrap{grid-template-columns:1.5fr 1fr 1fr 1fr}
+  .fine{grid-column:1/-1}
+  .rapida{display:none}
+}
+@media (max-width:899px){
+  .piede{padding-bottom:calc(110px + env(safe-area-inset-bottom))}
+}
+@media (max-width:420px){
+  .modulo .campi{grid-template-columns:1fr}
+  .barra .btn{padding:0 16px}
+  .logo small{letter-spacing:.16em}
+  .occasioni{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .js .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="salta" href="#contenuto">Salta al contenuto</a>
+<div class="bnw-fascia">Bozza preparata per Ristorante Masini da <a href="https://labottegadelweb.it">La bottega del web</a>. Non ancora online.</div>
+
+<header class="barra">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="Ristorante Masini, torna su">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="20" cy="20" r="18.5"/><path d="M12.5 27V13.5l7.5 8.5 7.5-8.5V27" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      <span><b>Masini</b><small>Ristorante · Bologna</small></span>
+    </a>
+    <nav aria-label="Principale">
+      <ul class="menu">
+        <li><a href="#menu">Il menù</a></li>
+        <li><a href="#buffet">Il buffet</a></li>
+        <li><a href="#recensioni">Dicono di noi</a></li>
+        <li><a href="#dove">Orari e dove</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="tel:+393475950409">Chiama</a>
+  </div>
+</header>
+
+<main id="contenuto">
+<section class="hero" aria-labelledby="titolo">
+  <img src="img/buffet-quadro.webp" width="640" height="640" alt="Il buffet di dolci e frutta del Ristorante Masini sotto il grande quadro con la monoposto rossa" fetchpriority="high">
+  <div class="wrap">
+    <p class="occhiello">Viale Masini 4/3 · Bologna</p>
+    <h1 id="titolo">Il pranzo buono, <em>a due passi</em> dalla stazione.</h1>
+    <p class="sotto">Lasagna della tradizione, tagliatelle, pesce e carne dalla lavagna del giorno. E alla fine il buffet di dolci e frutta, incluso nel menù. Pranzo tutti i giorni, cena dal lunedì al sabato.</p>
+    <div class="azioni">
+      <a class="btn" href="#prenota"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.5-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/></svg>Prenota su WhatsApp</a>
+      <a class="btn vetro" href="#menu">La lavagna del giorno</a>
+    </div>
+    <p class="stato" id="stato" aria-live="polite"><span class="punto" aria-hidden="true"></span><span id="stato-t">Pranzo 12–15, cena dalle 19:30</span></p>
+  </div>
+</section>
+
+<section class="valori" aria-label="Perché venire al Masini">
+  <div class="wrap">
+    <ul>
+      <li class="rv"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 22h24M7 22c0-6 4.5-10 10-10s10 4 10 10M17 12V9M14.5 9h5"/><path d="M4 26h26"/></svg><div><b>Dolci e frutta a buffet</b><span>Inclusi in tutti i menù, i dolci sono di nostra produzione.</span></div></li>
+      <li class="rv"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="5" y="6" width="24" height="18" rx="1.5"/><path d="M10 11h9M10 15h12M10 19h7M12 24l-2 5M22 24l2 5"/></svg><div><b>La lavagna cambia ogni giorno</b><span>Primi della tradizione, pesce e carne: scegliete un piatto o il menù completo.</span></div></li>
+      <li class="rv"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="8" y="5" width="18" height="20" rx="3"/><path d="M8 17h18M12 21h.01M22 21h.01M11 25l-3 4M23 25l3 4"/></svg><div><b>Vicino a stazione e autostazione</b><span>In Viale Masini: comodo per chi lavora in zona e per chi arriva in treno.</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sez" id="menu" aria-labelledby="t-menu">
+  <div class="wrap">
+    <div class="menu-testa">
+      <div>
+        <p class="occhiello rv">Il menù</p>
+        <h2 id="t-menu" class="rv">Un primo, un secondo <em>o tutti e due</em>.</h2>
+        <p class="intro rv">A pranzo funziona così: scegliete dalla lavagna un primo, un secondo, oppure il menù completo. Qui sotto i piatti che sono passati dalla nostra lavagna e che i clienti ricordano di più.</p>
+        <p class="esempio rv">Menù di esempio: lo sostituiamo con il vostro, con i prezzi.</p>
+      </div>
+      <aside class="lavagna rv" aria-live="polite">
+        <small>Come si ordina</small>
+        <p id="lav-p">Solo il primo</p>
+        <span id="lav-s">Un primo a scelta dalla lavagna, per una pausa pranzo veloce.</span>
+        <ol aria-label="Scegli la formula">
+          <li><button type="button" data-i="0" aria-pressed="true">Primo</button></li>
+          <li><button type="button" data-i="1" aria-pressed="false">Secondo</button></li>
+          <li><button type="button" data-i="2" aria-pressed="false">Completo</button></li>
+        </ol>
+        <p class="incl">Sempre compresi: buffet di dolci e frutta, acqua e caffè.</p>
+      </aside>
+    </div>
+
+    <div class="schede" role="tablist" aria-label="Sezioni del menù">
+      <button role="tab" id="s-pri" aria-controls="p-pri" aria-selected="true">Primi</button>
+      <button role="tab" id="s-pes" aria-controls="p-pes" aria-selected="false" tabindex="-1">Secondi di pesce</button>
+      <button role="tab" id="s-car" aria-controls="p-car" aria-selected="false" tabindex="-1">Carne e piastra</button>
+      <button role="tab" id="s-dol" aria-controls="p-dol" aria-selected="false" tabindex="-1">Dolci e caffè</button>
+    </div>
+
+    <div class="pannello" role="tabpanel" id="p-pri" aria-labelledby="s-pri" tabindex="0">
+      <ul class="piatti">
+        <li class="piatto"><h3>Lasagna della tradizione <span class="tag c">Bolognese</span></h3><p>La lasagna come si fa a Bologna, fissa sulla lavagna dei primi.</p></li>
+        <li class="piatto"><h3>Tagliatelle al ragù</h3><p>Sfoglia all'uovo, ragù e una pioggia di parmigiano. Per noi le migliori di Bologna.</p></li>
+        <li class="piatto"><h3>Trofie in sorbetto di pomodoro, gamberi e olive taggiasche</h3><p>Pomodoro fresco, gamberi e le olive liguri.</p></li>
+        <li class="piatto"><h3>Trofie con gamberi e zucchine</h3><p>Un primo di mare leggero, da pausa pranzo.</p></li>
+        <li class="piatto"><h3>Riso zucca e frutti di mare</h3><p>La dolcezza della zucca con i frutti di mare freschi.</p></li>
+        <li class="piatto"><h3>Ravioli con crema di patate e parmigiano</h3><p>Pasta ripiena su una crema morbida.</p></li>
+        <li class="piatto"><h3>Pasta con tonno, gamberi, olive e pomodoro</h3><p>Il mare in un piatto unico.</p></li>
+      </ul>
+    </div>
+    <div class="pannello" role="tabpanel" id="p-pes" aria-labelledby="s-pes" tabindex="0" hidden>
+      <ul class="piatti">
+        <li class="piatto"><h3>Tartare di tonno</h3><p>Tonno crudo, tra i secondi della lavagna.</p></li>
+        <li class="piatto"><h3>Tonno scottato <span class="tag c">Molto lodato</span></h3><p>Appena scottato in padella.</p></li>
+        <li class="piatto"><h3>Branzino in padella</h3><p>Il pesce del giorno, cotto semplice.</p></li>
+        <li class="piatto"><h3>Orata in crosta di mais</h3><p>Orata con una crosta croccante di mais.</p></li>
+      </ul>
+    </div>
+    <div class="pannello" role="tabpanel" id="p-car" aria-labelledby="s-car" tabindex="0" hidden>
+      <ul class="piatti">
+        <li class="piatto"><h3>Tagliata di manzo con patate al forno</h3><p>Con rosmarino e le patate arrosto.</p></li>
+        <li class="piatto"><h3>Sovracosce di pollo alla birra</h3><p>Pollo cotto alla birra.</p></li>
+        <li class="piatto"><h3>Paillard di lombo</h3><p>Fettina sottile, alla piastra.</p></li>
+        <li class="piatto"><h3>Hamburger di manzo con verdure miste</h3><p>Al piatto, con le verdure miste.</p></li>
+        <li class="piatto"><h3>Bufala con verdure <span class="tag s">Vegetariano</span></h3><p>Mozzarella di bufala con le verdure.</p></li>
+        <li class="piatto"><h3>Tomino alla piastra <span class="tag s">Vegetariano</span></h3><p>Il formaggio che fila, scaldato sulla piastra.</p></li>
+        <li class="piatto"><h3>Mozzarella di bufala con prosciutto crudo</h3><p>Bufala campana e crudo emiliano, per iniziare.</p></li>
+      </ul>
+    </div>
+    <div class="pannello" role="tabpanel" id="p-dol" aria-labelledby="s-dol" tabindex="0" hidden>
+      <ul class="piatti">
+        <li class="piatto"><h3>Buffet di dolci <span class="tag c">Incluso</span></h3><p>Crostate, torte e biscotti di nostra produzione, da prendere da soli al banco.</p></li>
+        <li class="piatto"><h3>Frutta fresca</h3><p>Ananas, anguria, agrumi e frutta tagliata, secondo stagione.</p></li>
+        <li class="piatto"><h3>Caffè <span class="tag c">Incluso</span></h3><p>O un cappuccino disegnato, se avete tempo.</p></li>
+      </ul>
+    </div>
+
+    <div class="note-menu">
+      <span><b>Opzioni vegetariane</b> disponibili</span>
+      <span><b>Allergeni:</b> chiedete al personale prima di ordinare</span>
+      <span><b>Carte</b> accettate</span>
+    </div>
+  </div>
+</section>
+
+<section class="sez buffet" id="buffet" aria-labelledby="t-buf">
+  <div class="wrap">
+    <div class="foto-doppia rv">
+      <figure><img src="img/buffet-dolci.webp" width="640" height="640" alt="Il banco dei dolci con crostate, pasticcini, anguria e arance" loading="lazy"></figure>
+      <figure><img src="img/frutta.webp" width="640" height="640" alt="Composizione di frutta fresca con ananas, banane, uva e mele" loading="lazy"></figure>
+    </div>
+    <div>
+      <p class="occhiello rv">Il buffet</p>
+      <h2 id="t-buf" class="rv">Il dolce <em>lo scegliete voi</em>, al banco.</h2>
+      <p class="intro rv">È la cosa che i nostri clienti ricordano di più: finito il pranzo ci si alza e ci si serve. Crostate, torte e biscotti fatti da noi, frutta fresca tagliata, poi il caffè. È compreso in tutti i menù.</p>
+      <ul class="lista-buffet rv">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Crostate, torte e biscotti di nostra produzione</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Frutta fresca di stagione</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Acqua e caffè compresi nel menù</span></li>
+      </ul>
+      <div class="numeri rv">
+        <div><b>4,2</b><span>su Google, con 734 recensioni</span></div>
+        <div><b>120</b><span>ospiti a tavola insieme, maggio 2025</span></div>
+        <div><b>7/7</b><span>a pranzo, tutti i giorni</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sez sala" aria-labelledby="t-sala">
+  <div class="wrap">
+    <figure class="sala-foto rv"><img src="img/tavolata.webp" width="580" height="580" alt="Una lunga tavolata apparecchiata con tovaglie bianche e nastri rosa nella sala del Masini" loading="lazy"><figcaption>Una tavolata per una festa di laurea.</figcaption></figure>
+    <div>
+      <p class="occhiello rv">La sala</p>
+      <h2 id="t-sala" class="rv">Una sala grande, <em>per due o per cento</em>.</h2>
+      <p class="intro rv">Legno caldo, sedie bianche, aria condizionata d'estate e un grande quadro con la monoposto rossa che non passa inosservato. C'è posto per la pausa pranzo di chi lavora in zona e per le tavolate: pranzi di lavoro, lauree, compleanni, incontri tra amici.</p>
+      <div class="occasioni rv">
+        <div><b>Pausa pranzo</b><span>Servizio veloce, per chi deve tornare in ufficio.</span></div>
+        <div><b>Pranzi di lavoro</b><span>Anche per gruppi da fuori città.</span></div>
+        <div><b>Lauree e feste</b><span>Tavolate apparecchiate per l'occasione.</span></div>
+        <div><b>Accessibile</b><span>Ingresso, tavoli e bagno per sedia a rotelle.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sez" aria-labelledby="t-gal" style="padding-top:0">
+  <div class="wrap">
+    <p class="occhiello rv">Dalla cucina</p>
+    <h2 id="t-gal" class="rv">I piatti, la lavagna, <em>il banco</em>.</h2>
+    <div class="galleria">
+      <figure class="rv"><img src="img/tagliatelle.webp" width="512" height="640" alt="Tagliatelle al ragù con parmigiano grattugiato su un piatto bianco" loading="lazy"><figcaption>Tagliatelle al ragù</figcaption></figure>
+      <figure class="rv"><img src="img/pasta-gamberi.webp" width="551" height="640" alt="Pasta fresca con gamberi, pomodorini e prezzemolo" loading="lazy"><figcaption>Pasta con i gamberi</figcaption></figure>
+      <figure class="rv"><img src="img/tagliata.webp" width="640" height="640" alt="Tagliata di manzo con rosmarino e patate al forno" loading="lazy"><figcaption>La tagliata</figcaption></figure>
+      <figure class="rv"><img src="img/lavagna.webp" width="512" height="640" alt="La lavagna del menù del giorno scritta a gesso" loading="lazy"><figcaption>La lavagna</figcaption></figure>
+      <figure class="rv"><img src="img/buffet-frutta.webp" width="640" height="640" alt="Il banco della frutta con ananas, banane, mele e macedonia" loading="lazy"><figcaption>La frutta</figcaption></figure>
+      <figure class="rv"><img src="img/dolci.webp" width="640" height="640" alt="Biscotti, crostate e dolci al cioccolato sul banco del buffet" loading="lazy"><figcaption>I dolci</figcaption></figure>
+      <figure class="rv"><img src="img/cappuccino.webp" width="592" height="435" alt="Cappuccino con un albero disegnato con il cacao" loading="lazy"><figcaption>Il caffè</figcaption></figure>
+      <figure class="rv"><img src="img/buffet-quadro.webp" width="640" height="640" alt="Il buffet sotto il grande quadro della sala" loading="lazy"><figcaption>Il banco</figcaption></figure>
+      <figure class="rv"><img src="img/frutta.webp" width="640" height="640" alt="Frutta fresca disposta a cascata sul banco" loading="lazy"><figcaption>Frutta di stagione</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sez" id="recensioni" aria-labelledby="t-rec" style="padding-top:0">
+  <div class="wrap">
+    <p class="occhiello rv">Dicono di noi</p>
+    <h2 id="t-rec" class="rv">Chi lo prova, <em>ci torna</em>.</h2>
+    <div class="voto rv">
+      <span class="num">4,2</span>
+      <div><div class="stelle" aria-hidden="true"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20" fill="currentColor" opacity=".35"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg></div>
+      <small>Su Google, 734 recensioni (novembre 2026)</small></div>
+    </div>
+    <div class="recensioni">
+      <figure class="rec rv">
+        <blockquote>«Menù del giorno molto buono, soprattutto i primi sono spettacolari. Dolce a buffet e caffè inclusi.»</blockquote>
+        <footer><span class="iniz" style="background:#B0281F" aria-hidden="true">DS</span><span><b>Davide S.</b>TripAdvisor · aprile 2024, con amici</span></footer>
+      </figure>
+      <figure class="rec rv">
+        <blockquote>«Conosco il ristorante e già da tempo apprezzo la qualità del cibo e la piacevolezza dell'ambiente. […] La gentilezza fa sempre e comunque la differenza.»</blockquote>
+        <footer><span class="iniz" style="background:#A86A3D" aria-hidden="true">AP</span><span><b>Anto P.</b>TripAdvisor · luglio 2024, pranzo di lavoro per 45</span></footer>
+      </figure>
+      <figure class="rec rv">
+        <blockquote>«Ieri 10 maggio 2025 siamo state ospiti, per un incontro tra amiche ed eravamo in 120 […] È riuscito ad unire la bontà dei piatti con la leggerezza e squisitezza dei prodotti.»</blockquote>
+        <footer><span class="iniz" style="background:#1C1816" aria-hidden="true">DF</span><span><b>Dolores F.</b>Google · maggio 2025</span></footer>
+      </figure>
+    </div>
+    <p class="fonte-rec rv">Estratti di recensioni pubbliche su Google Maps e TripAdvisor.</p>
+  </div>
+</section>
+
+<section class="sez prenota scuro" id="prenota" aria-labelledby="t-pren">
+  <div class="prenota-foto" aria-hidden="true"><img src="img/buffet-frutta.webp" alt="" loading="lazy"></div>
+  <div class="wrap">
+    <div>
+      <p class="occhiello rv">Prenota</p>
+      <h2 id="t-pren" class="rv">Un tavolo per oggi? <em>Scriveteci</em>.</h2>
+      <p class="intro rv">Compilate il modulo: si apre WhatsApp con il messaggio già scritto, voi premete invio e vi rispondiamo. Se preferite, chiamate: il numero è lo stesso.</p>
+      <ul class="contatti rv">
+        <li><a href="tel:+393475950409"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2"/></svg><span><span class="grande">347 595 0409</span><small>Telefono e WhatsApp, per prenotare e per i gruppi</small></span></a></li>
+        <li><a href="mailto:ristorantemasini@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5l8.5 6.5 8.5-6.5"/></svg><span>ristorantemasini@gmail.com<small>Per pranzi di lavoro ed eventi, con calma</small></span></a></li>
+        <li><a href="https://www.instagram.com/ristorante.masini/" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></svg><span>@ristorante.masini<small>Il buffet e i piatti su Instagram</small></span></a></li>
+      </ul>
+    </div>
+    <form class="modulo rv" id="modulo" novalidate>
+      <h3>Preparate la prenotazione</h3>
+      <p class="sottot">Premete il pulsante: si apre WhatsApp con il messaggio pronto per il ristorante.</p>
+      <div class="campi">
+        <div class="campo"><label for="f-data">Giorno</label><input type="date" id="f-data" name="data" required></div>
+        <div class="campo"><label for="f-ora">Ora</label><select id="f-ora" name="ora" required></select></div>
+        <fieldset class="campo largo persone">
+          <legend>Persone</legend>
+          <div class="scelte">
+          <label><input type="radio" name="persone" value="1"><span>1</span></label>
+          <label><input type="radio" name="persone" value="2" checked><span>2</span></label>
+          <label><input type="radio" name="persone" value="3"><span>3</span></label>
+          <label><input type="radio" name="persone" value="4"><span>4</span></label>
+          <label><input type="radio" name="persone" value="6"><span>6</span></label>
+          <label><input type="radio" name="persone" value="10+"><span>10+</span></label>
+          <label><input type="radio" name="persone" value="30+"><span>30+</span></label>
+          </div>
+        </fieldset>
+        <div class="campo"><label for="f-nome">Nome</label><input type="text" id="f-nome" name="nome" autocomplete="name"></div>
+        <div class="campo"><label for="f-occ">Occasione</label><select id="f-occ" name="occasione"><option>Pranzo o cena</option><option>Pranzo di lavoro</option><option>Laurea o festa</option><option>Gruppo o evento</option></select></div>
+        <div class="campo largo"><label for="f-note">Note (facoltativo)</label><textarea id="f-note" name="note" placeholder="Allergie, piatto vegetariano, seggiolone…"></textarea></div>
+      </div>
+      <button class="btn" type="submit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.5-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/></svg>Invia su WhatsApp</button>
+      <p class="info">Nessun pagamento. La conferma ve la diamo noi.</p>
+    </form>
+  </div>
+</section>
+
+<section class="gruppi" aria-labelledby="t-gru">
+  <div class="wrap">
+    <div>
+      <h2 id="t-gru" class="rv">Pranzo di lavoro, laurea, <em>tavolata</em>?</h2>
+      <p class="rv">Diteci quanti siete e quando, e ci organizziamo noi. Abbiamo apparecchiato per 45 colleghi e per 120 amiche arrivate da tutta Italia.</p>
+    </div>
+    <a class="btn vuoto rv" href="https://wa.me/393475950409?text=Buongiorno%2C%20vorrei%20informazioni%20per%20un%20gruppo%20al%20Ristorante%20Masini." rel="noopener" target="_blank">Chiedi per un gruppo</a>
+  </div>
+</section>
+
+<section class="sez dove" id="dove" aria-labelledby="t-dove">
+  <div class="wrap">
+    <div>
+      <p class="occhiello rv">Orari e dove</p>
+      <h2 id="t-dove" class="rv">Ci trovate <em>in Viale Masini</em>.</h2>
+      <ul class="orari rv" id="ore">
+        <li data-g="1" data-o="12:00-15:00,19:30-23:00"><span>Lunedì</span><span>12–15 · 19:30–23</span></li>
+        <li data-g="2" data-o="12:00-15:00,19:30-23:00"><span>Martedì</span><span>12–15 · 19:30–23</span></li>
+        <li data-g="3" data-o="12:00-15:00,19:30-23:00"><span>Mercoledì</span><span>12–15 · 19:30–23</span></li>
+        <li data-g="4" data-o="12:00-15:00,19:30-23:00"><span>Giovedì</span><span>12–15 · 19:30–23</span></li>
+        <li data-g="5" data-o="12:00-15:00,19:00-23:00"><span>Venerdì</span><span>12–15 · 19–23</span></li>
+        <li data-g="6" data-o="12:00-15:00,19:30-23:00"><span>Sabato</span><span>12–15 · 19:30–23</span></li>
+        <li data-g="0" data-o="12:00-15:00"><span>Domenica</span><span>12–15 · sera chiuso</span></li>
+      </ul>
+      <p class="nota">Orari dalla scheda Google. Li confermiamo con voi prima di pubblicare.</p>
+      <ul class="come rv">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="6" y="3" width="12" height="15" rx="2.5"/><path d="M6 12h12M9 15h.01M15 15h.01M8 18l-2 3M16 18l2 3"/></svg><span><b>In treno:</b> la stazione centrale è a pochi minuti a piedi.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="4" width="16" height="13" rx="2"/><path d="M4 11h16M8 17v3M16 17v3"/></svg><span><b>In autobus:</b> l'autostazione è vicinissima.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-5h6v5"/></svg><span><b>Punto di riferimento:</b> siamo dentro il Viale Masini Hotel, al civico 4/3.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="5" r="1.8"/><path d="M12 8v6h5l2 5M12 11H8M9 14a5 5 0 1 0 6 5"/></svg><span><b>Accessibile</b> con sedia a rotelle: ingresso, tavoli, bagno e parcheggio.</span></li>
+      </ul>
+    </div>
+    <div class="mappa rv" id="mappa">
+      <img src="img/buffet-quadro.webp" width="640" height="640" alt="La parete del buffet con il grande quadro, nella sala del Ristorante Masini" loading="lazy">
+      <div class="box">
+        <address>Viale Angelo Masini 4/3<br>40126 Bologna</address>
+        <p>A pochi passi dall'autostazione e dalla stazione centrale.</p>
+        <button class="btn chiaro" type="button" id="apri-mappa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg>Mostra la mappa</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="piede">
+  <div class="wrap">
+    <div>
+      <a class="logo" href="#" aria-label="Ristorante Masini, torna su">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="20" cy="20" r="18.5"/><path d="M12.5 27V13.5l7.5 8.5 7.5-8.5V27" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        <span><b>Masini</b><small>Ristorante · Bologna</small></span>
+      </a>
+      <p style="margin-top:16px;max-width:26em">Cucina bolognese, pesce e carne, con il buffet di dolci e frutta incluso. Vicino alla stazione centrale di Bologna.</p>
+      <div class="social">
+        <a href="https://www.instagram.com/ristorante.masini/" rel="noopener" target="_blank" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8" fill="currentColor"/></svg></a>
+        <a href="https://wa.me/393475950409" rel="noopener" target="_blank" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.5-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h3>Contatti</h3>
+      <ul>
+        <li><a href="tel:+393475950409">347 595 0409</a></li>
+        <li><a href="mailto:ristorantemasini@gmail.com">ristorantemasini@gmail.com</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Orari</h3>
+      <ul>
+        <li><span>Pranzo tutti i giorni 12–15</span></li>
+        <li><span>Cena lun–sab dalle 19:30</span></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Pagina</h3>
+      <ul>
+        <li><a href="#menu">Il menù</a></li>
+        <li><a href="#prenota">Prenota</a></li>
+        <li><a href="#dove">Come arrivare</a></li>
+      </ul>
+    </div>
+    <p class="fine"><span>Ristorante Masini · Viale Angelo Masini 4/3, 40126 Bologna</span><span>Foto: Ristorante Masini (Instagram)</span><span>Bozza di La bottega del web</span></p>
+  </div>
+</footer>
+
+<nav class="rapida" id="rapida" aria-label="Azioni rapide">
+  <a href="tel:+393475950409"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>Chiama</a>
+  <a class="pri" href="#prenota"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.5-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/></svg>Prenota</a>
+  <a href="#dove"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Dove siamo</a>
+</nav>
+
+<script>
+(function(){
+  var WA="393475950409";
+  var ora=new Date(),g=ora.getDay(),min=ora.getHours()*60+ora.getMinutes();
+  var nomi=["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
+  function m(s){var p=s.split(":");return +p[0]*60+ +p[1]}
+  function hh(t){return ("0"+Math.floor(t/60)).slice(-2)+":"+("0"+t%60).slice(-2)}
+  function fasce(giorno){var li=document.querySelector('#ore li[data-g="'+giorno+'"]'),o=li&&li.getAttribute("data-o");
+    return o?o.split(",").map(function(f){var x=f.split("-");return [m(x[0]),m(x[1]),x[0],x[1]]}):[]}
+
+  /* orari: riga di oggi + stato aperto/chiuso */
+  var li=document.querySelector('#ore li[data-g="'+g+'"]');if(li)li.className="oggi-r";
+  var st=document.getElementById("stato"),tx=document.getElementById("stato-t"),oggi=fasce(g),msg=null;
+  for(var i=0;i<oggi.length;i++){
+    if(min>=oggi[i][0]&&min<oggi[i][1]){st.classList.add("aperto");msg="<b>Aperto ora</b> · chiude alle "+oggi[i][3];break}
+    if(min<oggi[i][0]){st.classList.add("chiuso");msg="<b>Chiuso ora</b> · apre alle "+oggi[i][2];break}
+  }
+  if(!msg){for(var d=1;d<=7;d++){var gg=(g+d)%7,f=fasce(gg);if(f.length){st.classList.add("chiuso");
+    msg="<b>Chiuso ora</b> · riapre "+(d===1?"domani":nomi[gg])+" alle "+f[0][2];break}}}
+  if(msg)tx.innerHTML=msg;
+
+  /* lavagna: le tre formule */
+  var form=[["Solo il primo","Un primo a scelta dalla lavagna, per una pausa pranzo veloce."],["Solo il secondo","Un secondo a scelta dalla lavagna, di pesce o di carne."],["Menù completo","Primo, secondo e contorno dalla lavagna del giorno."]];
+  var lb=[].slice.call(document.querySelectorAll(".lavagna ol button"));
+  function lav(k){document.getElementById("lav-p").textContent=form[k][0];document.getElementById("lav-s").textContent=form[k][1];
+    lb.forEach(function(b,j){b.setAttribute("aria-pressed",j===k)})}
+  lb.forEach(function(b,j){b.addEventListener("click",function(){lav(j)})});
+
+  /* schede del menù */
+  var tabs=[].slice.call(document.querySelectorAll('[role="tab"]'));
+  function sel(t,foc){tabs.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;
+    document.getElementById(x.getAttribute("aria-controls")).hidden=!on});if(foc)t.focus();
+    t.scrollIntoView({block:"nearest",inline:"nearest"})}
+  tabs.forEach(function(t,i){t.addEventListener("click",function(){sel(t)});
+    t.addEventListener("keydown",function(e){var n=null;if(e.key==="ArrowRight")n=tabs[(i+1)%tabs.length];
+      if(e.key==="ArrowLeft")n=tabs[(i-1+tabs.length)%tabs.length];if(e.key==="Home")n=tabs[0];if(e.key==="End")n=tabs[tabs.length-1];
+      if(n){e.preventDefault();sel(n,true)}})});
+
+  /* modulo: giorni e orari validi (ultimo ingresso un'ora prima della chiusura) */
+  var fd=document.getElementById("f-data"),fo=document.getElementById("f-ora");
+  function iso(d){return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2)}
+  var primo=new Date(),fo0=fasce(primo.getDay());
+  if(!fo0.length||min>fo0[fo0.length-1][1]-90)primo.setDate(primo.getDate()+1);
+  fd.min=iso(new Date());fd.value=iso(primo);
+  function orari(){var d=fd.value?new Date(fd.value+"T12:00"):primo,f=fasce(d.getDay());fo.innerHTML="";
+    if(!f.length){fo.innerHTML="<option value=''>Chiuso questo giorno</option>";return}
+    var stesso=iso(d)===iso(new Date());
+    f.forEach(function(x){var grp=document.createElement("optgroup");grp.label=x[0]<m("17:00")?"Pranzo":"Cena";
+      for(var t=x[0];t<=x[1]-60;t+=30){if(stesso&&t<=min+30)continue;var o=document.createElement("option");o.textContent=hh(t);grp.appendChild(o)}
+      if(grp.children.length)fo.appendChild(grp)});
+    if(!fo.options.length)fo.innerHTML="<option value=''>Nessun orario libero oggi</option>";
+    else{var pref=[].filter.call(fo.options,function(o){return o.value==="13:00"||o.value==="20:00"});if(pref.length)fo.value=pref[0].value}}
+  fd.addEventListener("change",orari);orari();
+  document.getElementById("modulo").addEventListener("submit",function(e){e.preventDefault();
+    var p=this.querySelector('input[name="persone"]:checked'),gd=fd.value?new Date(fd.value+"T12:00"):null;
+    var t="Buongiorno, vorrei prenotare un tavolo al Ristorante Masini per "+(p?p.value:"2")+(p&&p.value==="1"?" persona":" persone")+(gd?", "+nomi[gd.getDay()]+" "+gd.getDate()+"/"+(gd.getMonth()+1):"")+(fo.value?" alle "+fo.value:"")+".";
+    var oc=document.getElementById("f-occ").value;if(oc!=="Pranzo o cena")t+=" Occasione: "+oc.toLowerCase()+".";
+    var n=document.getElementById("f-nome").value.trim(),no=document.getElementById("f-note").value.trim();
+    if(n)t+=" A nome di "+n+".";if(no)t+=" Note: "+no;
+    window.open("https://wa.me/"+WA+"?text="+encodeURIComponent(t),"_blank","noopener")});
+
+  /* mappa caricata solo su richiesta */
+  document.getElementById("apri-mappa").addEventListener("click",function(){var f=document.createElement("iframe");
+    f.title="Mappa: Viale Angelo Masini 4/3, Bologna";f.loading="lazy";f.referrerPolicy="no-referrer-when-downgrade";
+    f.src="https://www.google.com/maps?q=Ristorante+Masini,+Viale+Angelo+Masini+4/3,+Bologna&z=17&output=embed";document.getElementById("mappa").appendChild(f)});
+
+  /* barra rapida su telefono, dopo l'hero */
+  var r=document.getElementById("rapida"),h=document.querySelector(".hero");
+  if("IntersectionObserver" in window){new IntersectionObserver(function(es){r.classList.toggle("su",!es[0].isIntersecting)},{threshold:.15}).observe(h)}else r.classList.add("su");
+
+  /* comparsa allo scorrimento */
+  var rv=document.querySelectorAll(".rv");
+  if(!("IntersectionObserver" in window)){for(var j=0;j<rv.length;j++)rv[j].classList.add("in");return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{rootMargin:"0px 0px -6% 0px"});
+  for(var k=0;k<rv.length;k++)io.observe(rv[k]);
+})();
+</script>
+</body>
+</html>
